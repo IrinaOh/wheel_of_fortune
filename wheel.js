@@ -36,7 +36,7 @@ $(document).ready(function(){
         $('#wongame').hide();
 
         //hide letters from a previous game
-        $('.wordLetter').text() == "";
+        $('.wordLetter').text('');
 
         //loops through an array of words and hints each time start button clicked
         for (var i = 0; i < words[counter].word.length; i++) {
