@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+}
+html, body {
+	height: 100%;
+	background: url("background.jpg") no-repeat center center fixed; ;
+}
+h1, h2, h3, h4, h5, h6 , p {
+	margin-bottom: 20px;
+}
+.rotate{
+	animation: rotate 15s infinite;
+}
+@keyframes rotate{
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.button {
+    background-color: yellow; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 10px auto;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#logo {
+	margin: 0 auto;
+	width: 90%;
+	height: 100%;
+	border-radius: 120px;
+	display: block;
+}
+#wheel {
+	padding: 10px;
+	width: 100%;
+	height: auto;
+}
+table, th, td {
+    border: 1px solid black;
+	padding: 70px 0;
+}
+th, td {
+	width: 35px;
+	height: 35px;
+	background: yellow;
+}
+#hint, #points, .letter, .instructions, #gameover{
+	color: white;
+	padding: 30px 0;
+}
+.letter, #gameover, #wongame {
+	display: none;
+}
+data-letter{
+	text-transform: uppercase;
+}
+.centertoprow {
+    margin: auto;
+    width: 70%;
+    height: 200px;
+    /*border: 3px solid green;*/
+    padding: 10px;
+    text-align: center;
+}
+.centerbottomrow {
+    margin: auto;
+    width: 90%;
+    height: 350px;
+    /*border: 3px solid green;*/
+}

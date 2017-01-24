@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="wheel.js"></script>
+	<title>Wheel of Fortune</title>
+	<link rel="stylesheet" type="text/css" href="wheel.css">
+	<link rel="stylesheet" type="text/css"href="bootstrap.css"></link>
+</head>
+<body>
+	<div>
+		<div class="row">
+		  	<div class="col-md-4">
+		  		<div class="centertoprow">
+		  			<button id="start" class="button button1">START</button></div>
+		  		</div>
+		  	<div class="col-md-4">
+		  		<div class="centertoprow">
+		  			<img id="logo" src="logo.jpg">
+		  		</div>
+		  	</div>
+		  	<div class="col-md-4">
+		  		<div class="centertoprow">
+		  			<h3 id="hint"></h3>
+		  		</div>
+		  	</div>
+		</div>
+		<div class="row">
+		  	<div class="col-md-4">
+		  		<div >
+		  			<img id="wheel" src="wheel_of_fortune.jpg" alt="wheel_of_fortune">
+		  		</div>
+			</div>
+		  	<div class="col-md-4">
+		  		<div class="centerbottomrow">
+			  		<h3 id="points"></h3>
+			  		<h2 id="comment"></h2>
+			  		<span class="letter">A</span>
+			  		<span class="letter">B</span>
+			  		<span class="letter">C</span>
+			  		<span class="letter">D</span>
+			  		<span class="letter">E</span>
+			  		<span class="letter">F</span>
+			  		<span class="letter">G</span>
+			  		<span class="letter">H</span>
+			  		<span class="letter">I</span>
+			  		<span class="letter">J</span>
+			  		<span class="letter">K</span>
+			  		<span class="letter">L</span>
+			  		<span class="letter">M</span>
+					<span class="letter">N</span>
+					<span class="letter">O</span>
+					<span class="letter">P</span>
+					<span class="letter">Q</span>
+					<span class="letter">R</span>
+					<span class="letter">S</span>
+					<span class="letter">T</span>
+					<span class="letter">U</span>
+					<span class="letter">V</span>
+					<span class="letter">W</span>
+					<span class="letter">X</span>
+					<span class="letter">Y</span>
+					<span class="letter">Z</span>
+					<h2 class="instructions"></h2>
+					<h2 id="gameover">
+						GAME OVER <br> Click restart button to begin a new game 
+					</h2>
+					<h2 id="wongame"> CONGRATULATION!<br> YOU WON!!!</h2>
+				</div>
+		  	</div>
+		  	<div class="col-md-4">
+		  		<div class="centerbottomrow">
+			  		<table>
+					    <tr>
+					        <th></th>
+					        <th></th>
+					        <th></th>
+							<th></th>
+					        <th></th>
+					        <th></th>
+							<th></th>
+					        <th></th>
+					        <th></th>
+					    </tr>
+					    <tr>
+					        <td data-letter="" class="wordLetter"></td>
+					        <td data-letter="" class="wordLetter"></td>
+					        <td data-letter="" class="wordLetter"></td>
+					        <td data-letter="" class="wordLetter"></td>
+					        <td data-letter="" class="wordLetter"></td>
+					        <td data-letter="" class="wordLetter"></td>
+					        <td data-letter="" class="wordLetter"></td>
+					        <td data-letter="" class="wordLetter"></td>
+					        <td data-letter="" class="wordLetter"></td>
+					    </tr>
+					    <tr>
+					        <td></td>
+					        <td></td>
+					        <td></td>
+					        <td></td>
+					        <td></td>
+					        <td></td>
+					        <td></td>
+					        <td></td>
+					        <td></td>
+					    </tr>
+					</table>
+				</div>  
+		  	</div>
+		</div>
+	</div>
+</body>
+</html>
