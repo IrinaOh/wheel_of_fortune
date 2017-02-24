@@ -3,7 +3,8 @@
 }
 html, body {
 	height: 100%;
-	background: url("background.jpg") no-repeat center center fixed; ;
+	background: url("background.jpg") no-repeat center center fixed; 
+	font-size: 24px;
 }
 h1, h2, h3, h4, h5, h6 , p {
 	margin-bottom: 20px;
@@ -58,9 +59,9 @@ th, td {
 	height: 35px;
 	background: yellow;
 }
-#hint, #points, .letter, .instructions, #gameover{
+#hint, #hinttitle, #alphabethint, #points, .letter, .instructions, #gameover{
 	color: white;
-	padding: 30px 0;
+	padding: 20px 0;
 }
 .letter, #gameover, #wongame {
 	display: none;
