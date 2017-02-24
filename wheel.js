@@ -5,8 +5,8 @@ $(document).ready(function(){
     var gameinplay = false;
 	//array of words and hints
     var words = [{word: "lambent", hint: "softly bright or radiant, 7 letters"}, 
-    	{word: "facetious", hint: "meant to be humorous or funny : not serious"}, 
-    	{word: "obfuscate", hint: "to be evasive, unclear, or confusing"}];
+    	{word: "facetious", hint: "meant to be humorous or funny : not serious, 9 letters"}, 
+    	{word: "obfuscate", hint: "to be evasive, unclear, or confusing, 9 letters"}];
 	//does a number of things when click start button
 	$('#start').click(function(){
 		gameinplay = true;
@@ -90,7 +90,7 @@ $(document).ready(function(){
             if($(this).attr('data-letter') != ""){
                 if ($(this).text() == "") {
                     won = false;
-                    return false;//?????
+                    return false;
                 } 
             }
         });//end each
